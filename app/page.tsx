@@ -244,6 +244,7 @@ export default function Home() {
                       src="/kotarooo.png"
                       alt="kotarooo logo"
                       fill
+                      unoptimized
                       sizes="(max-width: 640px) 108px, (max-width: 1024px) 15vw, 192px"
                       className="object-cover object-center"
                     />
