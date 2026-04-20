@@ -293,7 +293,7 @@ export default function Home() {
 
       <section
         id="projects"
-        className="scroll-mt-24 snap-start snap-always mx-auto max-w-7xl px-6 pt-6 pb-18 lg:px-10 lg:pt-6 lg:pb-24"
+        className="scroll-mt-24 snap-start mx-auto max-w-7xl px-6 pt-6 pb-18 lg:px-10 lg:pt-6 lg:pb-24"
       >
         <SectionHeading
           label="Projects"
@@ -310,7 +310,7 @@ export default function Home() {
 
       <section
         id="skills"
-        className="scroll-mt-24 snap-start snap-always mx-auto max-w-7xl px-6 py-18 lg:px-10 lg:py-24"
+        className="scroll-mt-24 snap-start mx-auto max-w-7xl px-6 py-18 lg:px-10 lg:py-24"
       >
         <SectionHeading
           label="Skills"
@@ -352,7 +352,7 @@ export default function Home() {
 
       <section
         id="milestones"
-        className="scroll-mt-24 snap-start snap-always mx-auto max-w-7xl px-6 py-18 lg:px-10 lg:py-24"
+        className="scroll-mt-24 snap-start mx-auto max-w-7xl px-6 py-18 lg:px-10 lg:py-24"
       >
         <SectionHeading
           label="Milestones"
