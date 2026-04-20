@@ -241,7 +241,7 @@ export default function Home() {
                   <div className="absolute inset-[-10%] rounded-[2.4rem] bg-primary/12 blur-2xl" />
                   <div className="relative aspect-square w-[clamp(6.75rem,15vw,12rem)] overflow-hidden rounded-[2.2rem] border border-border/70 bg-background/80 shadow-[0_28px_60px_-32px_rgba(15,23,42,0.48)]">
                     <Image
-                      src="/kotarooo.png"
+                      src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/kotarooo.png`}
                       alt="kotarooo logo"
                       fill
                       unoptimized

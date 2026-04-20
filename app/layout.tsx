@@ -3,6 +3,8 @@ import { IBM_Plex_Mono, Space_Grotesk } from "next/font/google";
 import { CursorOrb } from "@/components/cursor-orb";
 import "./globals.css";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 const sans = Space_Grotesk({
   variable: "--font-brand-sans",
   subsets: ["latin"],
@@ -40,6 +42,9 @@ export const metadata: Metadata = {
     title: "Kotaro Hachiro | Portfolio",
     description:
       "Next.js を軸にした制作実績とスキルセットをまとめたポートフォリオサイト。",
+  },
+  icons: {
+    icon: `${basePath}/favicon.ico`,
   },
 };
 
